@@ -27,7 +27,7 @@ export default {
   },
   created() {
     api
-      .get(`http://jsonplaceholder.typicode.com/posts`)
+      .get(`https://jsonplaceholder.typicode.com/posts`)
       .then(response => {
         this.articles = response.data;
       })
